@@ -65,7 +65,7 @@ fun CharacterItem(
         .fillMaxWidth()
         .padding(4.dp)
         .background(
-            color = Color.Gray,
+            color = Color.Yellow,
             shape = RoundedCornerShape(2.dp)
         )
         .border(

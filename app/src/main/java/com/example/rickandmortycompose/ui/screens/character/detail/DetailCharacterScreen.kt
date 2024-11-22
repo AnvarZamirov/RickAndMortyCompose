@@ -80,7 +80,7 @@ fun SingleCharacter(
         Text(
             modifier = Modifier.padding(8.dp),
             text = gender,
-            color = if (gender == "Female") Color.Red else Color.Blue,
+            color = if (gender == "Female") Color.Red else Color.Green,
             fontSize = 16.sp,
             fontWeight = FontWeight.SemiBold
         )

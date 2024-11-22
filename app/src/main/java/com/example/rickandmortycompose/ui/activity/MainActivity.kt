@@ -94,7 +94,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TopBar() {
     CenterAlignedTopAppBar(
-        colors = TopAppBarDefaults.topAppBarColors(Color.Gray),
+        colors = TopAppBarDefaults.topAppBarColors(Color.Red),
         title = {
             Text(
                 fontSize = 20.sp,
@@ -111,7 +111,7 @@ fun BottomBar(navController: NavController) {
     val currentRoute = navController.currentBackStackEntryAsState().value?.destination?.route
 
     BottomAppBar(
-        containerColor = Color.Gray,
+        containerColor = Color.Red,
         contentColor = Color.Green
     ) {
         items.forEach { screen ->
